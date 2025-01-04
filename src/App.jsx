@@ -1,22 +1,16 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'; // Import komponen-komponen yang dibutuhkan
 
+import useAuth from './Hooks/useAuth';
 
 import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
+import DetailCars from './Pages/DetailCars';
+import Profile from './Pages/Profile';
 
 export default function App() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-
-  // Cek apakah ada data pengguna yang terdaftar di localStorage (menggunakan dataRegisterUsers)
-  useEffect(() => {
-    const token = localStorage.getItem('dataRegisterUsers');
-    if (token) {
-      setIsAuthenticated(true); // Jika ada, set isAuthenticated menjadi true
-    }
-  }, []);
-
+    const isAuthenticated = useAuth();
 
     const [theme] = useState(localStorage.getItem("theme") || "Business");
 
@@ -39,6 +33,9 @@ export default function App() {
             {isAuthenticated ? (
               <>
               <Route path="/" element={<Home />} />
+              <Route path="/detailCars/:id" element={<DetailCars />} />
+              <Route path="/profile" element={<Profile />} />
+                
               </>
             ) : (
               // Jika belum terautentikasi, hanya tampilkan halaman Home

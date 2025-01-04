@@ -6,13 +6,6 @@ import { useNavigate } from "react-router-dom"; // Mengimpor useNavigate untuk n
 
 export default function Register() {
     const navigate = useNavigate(); // Inisialisasi hook untuk navigasi halaman
-    const [theme ] = useState(localStorage.getItem("theme") || "Business"); // Menyimpan tema yang dipilih, dengan default "Business"
-
-    useEffect(() => {
-        // Menetapkan tema pada tag <html> setiap kali tema berubah
-        document.documentElement.setAttribute("data-theme", theme);
-        localStorage.setItem("theme", theme); // Menyimpan tema yang dipilih ke localStorage
-    }, [theme]); // Menjalankan efek setiap kali tema berubah
 
     // Inisialisasi state untuk menyimpan data pengguna yang akan didaftarkan
     const [dataUserRegister, setdataUserRegister] = useState({

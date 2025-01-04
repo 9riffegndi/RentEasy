@@ -9,15 +9,6 @@ export default function Login() {
     // Menggunakan hook useNavigate untuk navigasi setelah login
     const navigate = useNavigate();
 
-    // State untuk menyimpan tema yang dipilih, nilai default adalah "Business"
-    const [theme] = useState(localStorage.getItem("theme") || "Business");
-
-    useEffect(() => {
-        // Mengubah atribut data-theme pada <html> tag sesuai dengan tema yang dipilih
-        document.documentElement.setAttribute("data-theme", theme);
-        // Menyimpan tema yang dipilih ke localStorage
-        localStorage.setItem("theme", theme);
-    }, [theme]);
 
     // State untuk menyimpan data login (email dan password)
     const [login, setLogin] = useState({

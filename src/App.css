@@ -1,37 +1,10 @@
-* {
+/* @layer base {
+  * {
     font-family: "Poppins", serif;
-
-}
-
+    border: 1px solid rgb(81, 81, 81);
+  }
+} */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.flash {
-    -webkit-animation-name: flash;
-    animation-name: flash;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    }
-    @-webkit-keyframes flash {
-    0%, 50%, 100% {
-    opacity: 1;
-    }
-    
-    25%, 75% {
-    opacity: 0;
-    }
-    }
-    
-    @keyframes flash {
-    0%, 50%, 100% {
-    opacity: 1;
-    }
-    
-    25%, 75% {
-    opacity: 0;
-    }
-    } 
