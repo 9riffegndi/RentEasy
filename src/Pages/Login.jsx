@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import LayoutAuth from "..//Layouts/LayoutAuth";
 import { Link } from "react-router-dom";
 
 
@@ -51,32 +50,42 @@ export default function Login() {
     };
 
     return (
-        <LayoutAuth>
-            <div className="max-w-sm p-6 border rounded-lg shadow-md">
-                <h2 className="text-2xl font-semibold text-center text-primary mb-6">Login</h2>
-                <form onSubmit={handleLogin} className="space-y-4">
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="Email"
-                        value={login.email}
-                        onChange={handleChange}
-                        className="input input-bordered w-full"
-                    />
-                    <input
-                        type="password"
-                        name="password"
-                        placeholder="Password"
-                        value={login.password}
-                        onChange={handleChange}
-                        className="input input-bordered w-full"
-                    />
-                    <button type="submit" className="btn btn-primary w-full">Login</button>
-                    {error && <p className="text-red-500 text-center">{error}</p>} {/* Menampilkan pesan error jika ada */}
-                </form>
-                {/* Tautan untuk menuju halaman registrasi jika pengguna belum memiliki akun */}
-                <Link to="/register" className="text-center block mt-4">Don't have an account? Register</Link>
+        <div className="hero min-h-screen">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="text-cente w-[300px] hidden md:block lg:text-left">
+                <h1 className="text-5xl font-bold">Login now!</h1>
+                <p className="py-6">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fugiat saepe autem sunt rem laboriosam fugit voluptate quasi amet in.
+                </p>
             </div>
-        </LayoutAuth>
+            <div className="card  w-full max-w-sm shrink-0 ">
+                <div className="max-w-sm p-6 ">
+                        <h2 className="text-2xl font-semibold text-center text-primary mb-6">Login</h2>
+                        <form onSubmit={handleLogin} className="space-y-4">
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Email"
+                                value={login.email}
+                                onChange={handleChange}
+                                className="input input-bordered w-full"
+                            />
+                            <input
+                                type="password"
+                                name="password"
+                                placeholder="Password"
+                                value={login.password}
+                                onChange={handleChange}
+                                className="input input-bordered w-full"
+                            />
+                            <button type="submit" className="btn btn-primary w-full">Login</button>
+                            {error && <p className="text-red-500 text-center">{error}</p>} {/* Menampilkan pesan error jika ada */}
+                        </form>
+                        {/* Tautan untuk menuju halaman registrasi jika pengguna belum memiliki akun */}
+                        <Link to="/register" className="text-center block mt-4">Don't have an account? Register</Link>
+                </div>
+            </div>
+        </div>
+        </div>
     );
 }

@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Rent Easy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Rent Easy adalah aplikasi berbasis web untuk layanan rental mobil sport. Proyek ini hanya mencakup bagian Front-End tanpa backend. Aplikasi ini dibangun menggunakan React.js, Tailwind CSS, Daisy UI, dan menggunakan Local Storage serta file JSON untuk menyimpan data.
 
-## Available Scripts
+## Fitur Utama
+- **Daftar Mobil Sport**: Tampilkan daftar mobil sport yang tersedia untuk disewa.
+- **Detail Mobil**: Informasi lengkap tentang mobil seperti harga, spesifikasi, dan foto.
+- **Pencarian dan Filter**: Fitur untuk mencari mobil berdasarkan nama, harga, atau spesifikasi tertentu.
+- **Pemesanan**: Formulir sederhana untuk pemesanan mobil.
+- **Data Persistent**: Data pengguna dan status pemesanan disimpan menggunakan Local Storage.
+- **Login dan Register**: Pengguna dapat mendaftar dan masuk untuk menggunakan fitur aplikasi.
+- **Menghapus Pesanan**: Pengguna dapat membatalkan pesanan yang telah dibuat.
+- **Menghapus Akun**: Pengguna dapat menghapus akun mereka jika diperlukan.
+- **Mengganti Identitas Akun**: Fitur untuk mengubah data akun seperti nama, email, atau kata sandi.
+- **Melihat History**: Pengguna dapat melihat riwayat pesanan mereka.
+- **Ganti Tema**: Opsi untuk mengganti tema aplikasi (misalnya, tema terang dan gelap).
 
-In the project directory, you can run:
+## Tech Stack
+- **React.js**: Framework JavaScript untuk membangun antarmuka pengguna.
+- **Tailwind CSS**: Framework CSS untuk styling yang cepat dan responsif.
+- **Daisy UI**: Komponen tambahan untuk styling yang lebih mudah.
+- **Local Storage**: Untuk menyimpan data secara lokal pada browser pengguna.
+- **JSON File**: Untuk menyimpan data statis seperti daftar mobil.
 
-### `npm start`
+## Cara Menjalankan Proyek
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Clone Repository
+```bash
+git clone <URL_REPOSITORY>
+cd rent-easy
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Install Dependencies
+Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/):
+```bash
+npm install
+```
 
-### `npm test`
+### 3. Menjalankan Proyek
+```bash
+npm start
+```
+Aplikasi akan berjalan di `http://localhost:3000`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Data Mobil (Contoh JSON)
+File `cars.json` akan menyimpan data seperti ini:
+```json
+[
+  {
+    "id": 1,
+    "gambarBrand": "https://img.icons8.com/?size=100&id=38732&format=png&color=000000",
+    "merek": "Ferrari",
+    "model": "F8 Tributo",
+    "tahun": 2022,
+    "mesin": "3.9L V8",
+    "tenaga_kuda": 710,
+    "kapasitas_tempat_duduk": 2,
+    "transmisi": "Otomatis",
+    "kapasitas_bagasi": "200L",
+    "bahan_bakar": "Bensin",
+    "asuransi": "Perlindungan Penuh",
+    "harga_sewa_per_hari": 1500,
+    "minimalrentalperhari": 5,
+    "gambar": "https://www.pngarts.com/files/8/Red-Ferrari-F8-Tributo-PNG-Download-Image.png",
+    "gambarDetail": [
+      "https://www.pngarts.com/files/8/Red-Ferrari-F8-Tributo-PNG-Download-Image.png"
+    ]
+  }
+]
+```
 
-### `npm run build`
+## Penggunaan Tailwind CSS dan Daisy UI
+### Instalasi
+Tambahkan Tailwind dan Daisy UI ke proyek:
+```bash
+npm install tailwindcss daisyui
+```
+### Konfigurasi Tailwind
+Tambahkan `daisyui` ke dalam `tailwind.config.js`:
+```javascript
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("daisyui")],
+};
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Local Storage
+Data seperti pemesanan pengguna akan disimpan di Local Storage. Contoh penyimpanan data:
+```javascript

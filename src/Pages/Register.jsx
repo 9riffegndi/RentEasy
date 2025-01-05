@@ -1,5 +1,4 @@
 
-import LayoutsAuth from "../Layouts/LayoutAuth"; // Mengimpor Layout untuk halaman otentikasi
 import { useEffect, useState } from "react"; // Mengimpor hooks useEffect dan useState dari React
 import {  Link } from "react-router-dom"; // Mengimpor Link dari react-router-dom
 import { useNavigate } from "react-router-dom"; // Mengimpor useNavigate untuk navigasi halaman
@@ -48,40 +47,49 @@ export default function Register() {
     };
 
     return (
-        <LayoutsAuth> 
-            {/* Layout utama untuk halaman otentikasi */}
-            <div className="max-w-sm mx-auto mt-10 p-6 border rounded-lg shadow-md">
-                <h2 className="text-2xl font-semibold text-center mb-6 text-primary">Register</h2>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                    <input
-                        type="text"
-                        name="name"
-                        placeholder="Name"
-                        value={dataUserRegister.name}
-                        onChange={handleRegister}
-                        className="input input-bordered w-full"
-                    />
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="Email"
-                        value={dataUserRegister.email}
-                        onChange={handleRegister}
-                        className="input input-bordered w-full"
-                    />
-                    <input
-                        type="password"
-                        name="password"
-                        placeholder="Password"
-                        value={dataUserRegister.password}
-                        onChange={handleRegister}
-                        className="input input-bordered w-full"
-                    />
-                    <button type="submit" className="btn btn-primary w-full">Register</button>
-                </form>
-                <Link to="/login" className="text-center block mt-4">Already have an account? Login</Link>
-                {/* Link untuk navigasi ke halaman login */}
-            </div>
-        </LayoutsAuth>
+                <div className="hero min-h-screen">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <div className="text-cente w-[300px] hidden md:block lg:text-left">
+                        <h1 className="text-5xl font-bold">Register now!</h1>
+                        <p className="py-6">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo fugiat saepe autem sunt rem laboriosam fugit voluptate quasi amet in.
+                        </p>
+                    </div>
+                    <div className="card  w-full max-w-sm shrink-0 ">
+                        <div className="max-w-sm p-6 ">
+                                <h2 className="text-2xl font-semibold text-center text-primary mb-6">Register</h2>
+                                <form onSubmit={handleSubmit} className="space-y-4">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        placeholder="Name"
+                                        value={dataUserRegister.name}
+                                        onChange={handleRegister}
+                                        className="input input-bordered w-full"
+                                    />
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        placeholder="Email"
+                                        value={dataUserRegister.email}
+                                        onChange={handleRegister}
+                                        className="input input-bordered w-full"
+                                    />
+                                    <input
+                                        type="password"
+                                        name="password"
+                                        placeholder="Password"
+                                        value={dataUserRegister.password}
+                                        onChange={handleRegister}
+                                        className="input input-bordered w-full"
+                                    />
+                                    <button type="submit" className="btn btn-primary w-full">Register</button>
+                                </form>
+                                <Link to="/login" className="text-center block mt-4">Already have an account? Login</Link>
+                                {/* Link untuk navigasi ke halaman login */}
+                        </div>
+                    </div>
+                </div>
+                </div>
     );
 }

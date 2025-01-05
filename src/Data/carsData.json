@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "gambarBrand": "https://img.icons8.com/?size=100&id=36736&format=png&color=000000",
+    "gambarBrand": "https://img.icons8.com/?size=100&id=38732&format=png&color=000000",
     "merek": "Ferrari",
     "model": "F8 Tributo",
     "tahun": 2022,
@@ -14,14 +14,9 @@
     "asuransi": "Perlindungan Penuh",
     "harga_sewa_per_hari": 1500,
     "minimalrentalperhari": 5,
-    "gambar": "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
+    "gambar": "../Img/1-removebg-preview.png",
     "gambarDetail": [
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg"
+      "../Img/1-removebg-preview.png"
     ]
   },
   {
@@ -39,19 +34,14 @@
     "asuransi": "Perlindungan Penuh",
     "harga_sewa_per_hari": 1400,
     "minimalrentalperhari": 5,
-    "gambar": "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-    "gambarDetail": [
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg"
+    "gambar": "../Img/2-removebg-preview.png",
+    "gambarDetail": [ 
+        "../Img/2-removebg-preview.png"
     ]
   },
   {
     "id": 3,
-    "gambarBrand": "https://img.icons8.com/?size=100&id=36736&format=png&color=000000",
+    "gambarBrand": "https://img.icons8.com/?size=100&id=56232&format=png&color=000000",
     "merek": "Porsche",
     "model": "911 Turbo S",
     "tahun": 2022,
@@ -64,19 +54,14 @@
     "asuransi": "Perlindungan Penuh",
     "harga_sewa_per_hari": 1300,
     "minimalrentalperhari": 4,
-    "gambar": "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
+    "gambar": "../Img/3-removebg-preview.png",
     "gambarDetail": [
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg"
+        "../Img/3-removebg-preview.png"
     ]
   },
   {
     "id": 4,
-    "gambarBrand": "https://img.icons8.com/?size=100&id=36736&format=png&color=000000",
+    "gambarBrand": "https://img.icons8.com/?size=100&id=PCk03dnY8Y5q&format=png&color=000000",
     "merek": "Aston Martin",
     "model": "DB11",
     "tahun": 2022,
@@ -89,19 +74,14 @@
     "asuransi": "Perlindungan Penuh",
     "harga_sewa_per_hari": 1600,
     "minimalrentalperhari": 5,
-    "gambar": "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
+    "gambar": "../Img/4-removebg-preview.png",
     "gambarDetail": [
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg"
+      "../Img/4-removebg-preview.png"
     ]
   },
   {
     "id": 5,
-    "gambarBrand": "https://img.icons8.com/?size=100&id=36736&format=png&color=000000",
+    "gambarBrand": "https://img.icons8.com/?size=100&id=TbHsNsycr4b8&format=png&color=000000",
     "merek": "McLaren",
     "model": "720S",
     "tahun": 2022,
@@ -114,19 +94,14 @@
     "asuransi": "Perlindungan Penuh",
     "harga_sewa_per_hari": 1700,
     "minimalrentalperhari": 5,
-    "gambar": "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
+    "gambar": "../Img/5-removebg-preview.png",
     "gambarDetail": [
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg"
+      "../Img/5-removebg-preview.png"
     ]
   },
   {
     "id": 6,
-    "gambarBrand": "https://img.icons8.com/?size=100&id=36736&format=png&color=000000",
+    "gambarBrand": "https://img.icons8.com/?size=100&id=57661&format=png&color=000000",
     "merek": "Chevrolet",
     "model": "Corvette C8",
     "tahun": 2022,
@@ -139,19 +114,14 @@
     "asuransi": "Perlindungan Penuh",
     "harga_sewa_per_hari": 1200,
     "minimalrentalperhari": 4,
-    "gambar": "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
+    "gambar": "../Img/6-removebg-preview.png",
     "gambarDetail": [
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg"
+        "../Img/6-removebg-preview.png"
     ]
   },
   {
     "id": 7,
-    "gambarBrand": "https://img.icons8.com/?size=100&id=36736&format=png&color=000000",
+    "gambarBrand": "https://img.icons8.com/?size=100&id=LHeNdOGLaecC&format=png&color=000000",
     "merek": "Audi",
     "model": "R8 V10 Performance",
     "tahun": 2022,
@@ -164,19 +134,14 @@
     "asuransi": "Perlindungan Penuh",
     "harga_sewa_per_hari": 1450,
     "minimalrentalperhari": 5,
-    "gambar": "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
+    "gambar": "../Img/7-removebg-preview.png",
     "gambarDetail": [
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg"
+        "../Img/7-removebg-preview.png"
     ]
   },
   {
     "id": 8,
-    "gambarBrand": "https://img.icons8.com/?size=100&id=36736&format=png&color=000000",
+    "gambarBrand": "https://img.icons8.com/?size=100&id=59014&format=png&color=000000",
     "merek": "Jaguar",
     "model": "F-Type R",
     "tahun": 2022,
@@ -189,19 +154,14 @@
     "asuransi": "Perlindungan Penuh",
     "harga_sewa_per_hari": 1550,
     "minimalrentalperhari": 5,
-    "gambar": "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
+    "gambar": "../Img/8-removebg-preview.png",
     "gambarDetail": [
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg"
+      "../Img/8-removebg-preview.png"
     ]
   },
   {
     "id": 9,
-    "gambarBrand": "https://img.icons8.com/?size=100&id=36736&format=png&color=000000",
+    "gambarBrand": "https://img.icons8.com/?size=100&id=35VZpAUjb4eb&format=png&color=000000",
     "merek": "BMW",
     "model": "i8",
     "tahun": 2022,
@@ -214,19 +174,14 @@
     "asuransi": "Perlindungan Penuh",
     "harga_sewa_per_hari": 1400,
     "minimalrentalperhari": 5,
-    "gambar": "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
+    "gambar":"../Img/9-removebg-preview.png",
     "gambarDetail": [
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg"
+        "../Img/9-removebg-preview.png"
     ]
   },
   {
     "id": 10,
-    "gambarBrand": "https://img.icons8.com/?size=100&id=36736&format=png&color=000000",
+    "gambarBrand": "https://img.icons8.com/?size=100&id=l5UaJ8DUphRG&format=png&color=000000",
     "merek": "Mercedes-Benz",
     "model": "AMG GT",
     "tahun": 2022,
@@ -239,14 +194,9 @@
     "asuransi": "Perlindungan Penuh",
     "harga_sewa_per_hari": 1600,
     "minimalrentalperhari": 5,
-    "gambar": "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
+    "gambar":"../Img/10-removebg-preview.png",
     "gambarDetail": [
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg",
-      "https://imgcdn.oto.com/medium/gallery/exterior/10/2213/ferrari-sf90-stradale-73823.jpg"
+      "../Img/10-removebg-preview.png"
     ]
   }
 ]

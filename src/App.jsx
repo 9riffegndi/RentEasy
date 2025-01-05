@@ -8,6 +8,7 @@ import Login from './Pages/Login';
 import Register from './Pages/Register';
 import DetailCars from './Pages/DetailCars';
 import Profile from './Pages/Profile';
+import HistoryOrder from './Pages/HistoryOrder';
 
 export default function App() {
     const isAuthenticated = useAuth();
@@ -34,8 +35,8 @@ export default function App() {
               <>
               <Route path="/" element={<Home />} />
               <Route path="/detailCars/:id" element={<DetailCars />} />
-              <Route path="/profile" element={<Profile />} />
-                
+              <Route path="/historyorder" element={<HistoryOrder />} />
+              <Route path="/profile" element={<Profile />} />                
               </>
             ) : (
               // Jika belum terautentikasi, hanya tampilkan halaman Home

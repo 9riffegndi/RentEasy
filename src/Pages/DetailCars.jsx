@@ -22,10 +22,10 @@ export default function DetailCars() {
         <Navbar />
         <section className="w-full mt-2 flex flex-col min-h-screen gap-10 ">
                 <div className="w-full grid grid-cols-12 gap-1 min-h-screen">
-                <div className="border-2 w-full col-span-12 md:col-span-6">
+                <div className=" w-full col-span-12 md:col-span-6">
                 {carDetail ? (
                 <>
-                    <div className="w-full carousel">
+                    <div className="w-full carousel  border  h-max">
                         {carDetail.gambarDetail?.length > 0 ? (
                             carDetail.gambarDetail.map((gambar, index) => (
                                 <div
@@ -33,21 +33,21 @@ export default function DetailCars() {
                                     id={`item-${index}`}
                                     className={`carousel-item w-full ${index === 0 ? 'active' : ''}`}
                                 >
-                                    <img className="w-full h-[400px]" src={gambar} alt={`Gambar ${index + 1}`} />
+                                    <img className="w-full object-cover" src={gambar} alt={`Gambar ${index + 1}`} />
                                 </div>
                             ))
                         ) : (
                             <p>Gambar detail belum tersedia untuk mobil ini.</p>
                         )}
                     </div>
-                    <div className="carousel  p-2 w-full ">
+                    <div className="carousel  border p-2 w-full ">
                         {carDetail.gambarDetail?.map((_, index) => (
                             <a
                                 key={index}
                                 href={`#item-${index}`}
-                                className="carousel-item w-[26%]  cursor-pointer">
+                                className="carousel-item w-[20%] border cursor-pointer">
                                 <img
-                                    className="h-[100px] "
+                                    className="w-full object-cover"
                                     src={carDetail.gambarDetail[index]}
                                     alt={`Thumbnail ${index + 1}`}
                                 />
@@ -59,7 +59,7 @@ export default function DetailCars() {
                     <p>Mobil tidak ditemukan</p>
                 )}
                 </div>
-                    <div className=" p-2 items-center w-full col-span-12 md:col-span-6">
+                    <div className=" p-2 items-center border h-max  w-full col-span-12 md:col-span-6">
                         <div className="flex gap-1 text-2xl font-bold justify-start items-center">
                             <img className="h-[40px]" src={carDetail.gambarBrand}/>
                             <h1>{carDetail.merek}</h1> 
@@ -104,7 +104,7 @@ export default function DetailCars() {
 
 
                             {/* modal transction */}
-                            <label htmlFor="my_modal_7" className="btn">Hubungi</label>
+                            <label htmlFor="my_modal_7" className="btn btn-primary">Rental sekarang</label>
                             <input type="checkbox" id="my_modal_7" className="modal-toggle" />
                             <ModalTransaction className="modal" role="dialog" />
                         </div>

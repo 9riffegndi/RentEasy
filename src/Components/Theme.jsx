@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 
 
-export default function Theme() {
+export default function Theme({className=""}) {
 
     const [theme, setTheme] = useState(localStorage.getItem("theme") || "business");
 
@@ -23,7 +23,7 @@ export default function Theme() {
         <label htmlFor="theme-selector" className="sr-only">Select Theme</label>
                 <select
                     id="theme-selector"
-                    className="select select-primary rounded-full select-sm"
+                    className={`select select-primary rounded-full select-sm ${className} `}
                     value={theme} // Ini memastikan tema yang dipilih dikendalikan oleh React
                     onChange={handleThemeChange}
                 >
