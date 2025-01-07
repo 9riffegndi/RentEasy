@@ -5,7 +5,6 @@ Rent Easy adalah aplikasi berbasis web untuk layanan rental mobil sport. Proyek 
 ## Fitur Utama
 - **Daftar Mobil Sport**: Tampilkan daftar mobil sport yang tersedia untuk disewa.
 - **Detail Mobil**: Informasi lengkap tentang mobil seperti harga, spesifikasi, dan foto.
-- **Pencarian dan Filter**: Fitur untuk mencari mobil berdasarkan nama, harga, atau spesifikasi tertentu.
 - **Pemesanan**: Formulir sederhana untuk pemesanan mobil.
 - **Data Persistent**: Data pengguna dan status pemesanan disimpan menggunakan Local Storage.
 - **Login dan Register**: Pengguna dapat mendaftar dan masuk untuk menggunakan fitur aplikasi.
