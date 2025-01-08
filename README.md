@@ -86,6 +86,3 @@ module.exports = {
 };
 ```
 
-## Local Storage
-Data seperti pemesanan pengguna akan disimpan di Local Storage. Contoh penyimpanan data:
-```javascript
